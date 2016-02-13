@@ -1,0 +1,83 @@
+body {
+  background: #f8f8f8;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #333; }
+
+header, main, footer {
+  padding-left: 240px; }
+
+@media only screen and (max-width: 992px) {
+  header, main, footer {
+    padding-left: 0; } }
+header .side-nav {
+  background: #273948;
+  border: 0;
+  border-right: 1px solid #eee; }
+  header .side-nav.fixed a {
+    color: #a7b1c2;
+    padding: 8px 15px;
+    line-height: normal;
+    height: auto; }
+  header .side-nav li {
+    line-height: normal; }
+    header .side-nav li.menu-item .collapsible-header {
+      margin: 0;
+      padding: 10px 0 10px 15px !important; }
+      header .side-nav li.menu-item .collapsible-header .mdi-navigation-arrow-drop-down {
+        margin-right: 0; }
+    header .side-nav li.menu-item a {
+      background: #273948;
+      margin: 0;
+      padding-left: 30px; }
+      header .side-nav li.menu-item a.active, header .side-nav li.menu-item a:hover {
+        background: #243644;
+        color: #fff; }
+      header .side-nav li.menu-item a .switch {
+        margin-right: -20px; }
+  header .side-nav .user-details {
+    background: #243644;
+    color: #a7b1c2;
+    height: 115px;
+    font-size: 12px;
+    border-bottom: 1px solid #273948; }
+    header .side-nav .user-details .col {
+      padding: 0 5px; }
+    header .side-nav .user-details .profile-image {
+      border: 1px solid #6C7B92;
+      margin-top: 30px; }
+    header .side-nav .user-details .profile-btn {
+      margin-top: 38px;
+      padding: 0;
+      text-transform: none; }
+    header .side-nav .user-details #profile-dropdown {
+      width: 128px;
+      top: 38px !important; }
+      header .side-nav .user-details #profile-dropdown a {
+        color: #333;
+        font-size: 14px;
+        padding: 15px 0; }
+    header .side-nav .user-details .user-roal {
+      margin: 0; }
+
+main nav.navbar-fixed {
+  height: 50px; }
+  main nav.navbar-fixed .container {
+    width: 100%;
+    line-height: normal;
+    padding: 0 15px; }
+    main nav.navbar-fixed .container .brand-logo {
+      color: #777;
+      line-height: 20px;
+      font-size: 18px; }
+      main nav.navbar-fixed .container .brand-logo img {
+        opacity: 0.6;
+        width: 50px;
+        margin-top: 5px; }
+      main nav.navbar-fixed .container .brand-logo .name {
+        margin-top: 15px; }
+    main nav.navbar-fixed .container ul a {
+      color: #777;
+      padding: 17px 15px; }
+
+/*# sourceMappingURL=dashboard.css.map */

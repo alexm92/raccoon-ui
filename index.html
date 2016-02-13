@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection" />
+    <link type="text/css" rel="stylesheet" href="css/dashboard.css"  media="screen,projection" />
+</head>
+
+<body>
+
+    <header>
+        <!--
+            <a href="#" data-activates="nav-mobile" class="button-collapse top-nav waves-effect waves-light circle hide-on-large-only">
+                <i class="mdi-navigation-menu"></i>
+            </a>
+        -->
+
+        <ul id="nav-mobile" class="side-nav fixed collapsible" data-collapsible="expandable">
+
+            <li class="no-padding user-details">
+                <div class="row">
+                    <div class="col s3 m3 l3">
+                        <img src="https://secure.gravatar.com/avatar/cd6c65be448c820f53379423779e7dd4?d=mm" alt=""
+                             class="circle responsive-img valign profile-image">
+                    </div>
+                    <div class="col s9 m9 l9">
+                        <a class="btn-flat dropdown-button waves-effect waves-light white-text profile-btn" href="#" data-activates="profile-dropdown">
+                            Alexandru Mihai <i class="mdi-navigation-arrow-drop-down right"></i>
+                        </a>
+                        <ul id="profile-dropdown" class="dropdown-content">
+                            <li>
+                                <a href="#settings"><i class="mdi-action-settings"></i> Settings</a>
+                            </li>
+                            <li class="divider"></li>
+                            <li>
+                                <a href="#logout"><i class="mdi-hardware-keyboard-tab"></i> Logout</a>
+                            </li>
+                        </ul>
+                        <p class="user-roal">Software Developer</p>
+                    </div>
+                </div>
+            </li>
+
+            <li class="no-padding menu-item">
+                <a class="collapsible-header active waves-effect no-padding">
+                    Projects <i class="mdi-navigation-arrow-drop-down right"></i>
+                </a>
+                <div class="collapsible-body">
+                    <ul>
+                        <li class="no-padding">
+                            <a href="#">
+                                Applogic
+                                <div class="switch right">
+                                    <label>
+                                        <input type="checkbox">
+                                        <span class="lever"></span>
+                                    </label>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="no-padding">
+                            <a href="#">
+                                Webserver
+                                <div class="switch right">
+                                    <label>
+                                        <input type="checkbox">
+                                        <span class="lever"></span>
+                                    </label>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="no-padding">
+                            <a href="#">
+                                GUI
+                                <div class="switch right">
+                                    <label>
+                                        <input type="checkbox">
+                                        <span class="lever"></span>
+                                    </label>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="no-padding">
+                            <a href="#">
+                                <i class="mdi-content-add-box left"></i> Add new
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="no-padding menu-item">
+                <a class="collapsible-header active waves-effect no-padding">
+                    Environments <i class="mdi-navigation-arrow-drop-down right"></i>
+                </a>
+                <div class="collapsible-body">
+                    <ul>
+                        <li class="no-padding">
+                            <a href="#">
+                                DEV
+                                <div class="switch right">
+                                    <label>
+                                        <input type="checkbox">
+                                        <span class="lever"></span>
+                                    </label>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="no-padding">
+                            <a href="#">
+                                TEST
+                                <div class="switch right">
+                                    <label>
+                                        <input type="checkbox">
+                                        <span class="lever"></span>
+                                    </label>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="no-padding">
+                            <a href="#">
+                                ACC
+                                <div class="switch right">
+                                    <label>
+                                        <input type="checkbox">
+                                        <span class="lever"></span>
+                                    </label>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="no-padding">
+                            <a href="#">
+                                PROD
+                                <div class="switch right">
+                                    <label>
+                                        <input type="checkbox">
+                                        <span class="lever"></span>
+                                    </label>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="no-padding">
+                            <a href="#">
+                                <i class="mdi-content-add-box left"></i> Add new
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+
+        </ul>
+    </header>
+
+    <main>
+
+        <nav class="navbar-fixed white">
+            <div class="container">
+                <div class="nav-wrapper">
+                    <a href="#" class="brand-logo">
+                        <img src="/static/assets/img/raccoon.png" class="left" />
+                        <p class="name">Raccoon</p>
+                    </a>
+                    <ul class="right">
+                        <li><a href="#dashboard" class="waves-effect waves-light">Dashboard</a></li>
+                        <li><a href="#settings" class="waves-effect waves-light">Settings</a></li>
+                        <li><a href="#help" class="waves-effect waves-light">Help</a></li>
+                        <li><a href="#tasks" class="waves-effect waves-light">###</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+
+        <div class="row">
+            <form class="col s12">
+                <div class="row">
+                    <div class="input-field col s6">
+                        <input placeholder="Placeholder" id="first_name" type="text" class="validate">
+                        <label for="first_name">First Name</label>
+                    </div>
+                    <div class="input-field col s6">
+                        <input id="last_name" type="text" class="validate">
+                        <label for="last_name">Last Name</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                        <input disabled value="I am not editable" id="disabled" type="text" class="validate">
+                        <label for="disabled">Disabled</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                        <input id="password" type="password" class="validate">
+                        <label for="password">Password</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                        <input id="email" type="email" class="validate">
+                        <label for="email">Email</label>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+
+    </main>
+
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/bin/materialize.min.js"></script>
+</body>
+</html>

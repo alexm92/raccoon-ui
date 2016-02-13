@@ -21,26 +21,35 @@ header .side-nav {
     height: auto; }
   header .side-nav li {
     line-height: normal; }
-    header .side-nav li.menu-item .collapsible-header {
-      margin: 0;
-      padding: 10px 0 10px 15px !important; }
-      header .side-nav li.menu-item .collapsible-header .mdi-navigation-arrow-drop-down {
-        margin-right: 0; }
-    header .side-nav li.menu-item a {
-      background: #273948;
-      margin: 0;
-      padding-left: 30px; }
-      header .side-nav li.menu-item a.active, header .side-nav li.menu-item a:hover {
-        background: #243644;
-        color: #fff; }
-      header .side-nav li.menu-item a .switch {
-        margin-right: -20px; }
+    header .side-nav li.menu-item {
+      background: #273948; }
+      header .side-nav li.menu-item:nth-child(2) {
+        margin-top: 115px; }
+      header .side-nav li.menu-item:last-child {
+        padding-bottom: 50px !important; }
+      header .side-nav li.menu-item .collapsible-header {
+        margin: 0;
+        padding: 10px 0 10px 15px !important; }
+        header .side-nav li.menu-item .collapsible-header .mdi-navigation-arrow-drop-down {
+          margin-right: 0; }
+      header .side-nav li.menu-item a {
+        background: #273948;
+        margin: 0;
+        padding-left: 30px; }
+        header .side-nav li.menu-item a.active, header .side-nav li.menu-item a:hover {
+          background: #243644;
+          color: #fff; }
+        header .side-nav li.menu-item a .switch {
+          margin-right: -20px; }
   header .side-nav .user-details {
     background: #243644;
+    border-bottom: 1px solid #273948;
     color: #a7b1c2;
-    height: 115px;
     font-size: 12px;
-    border-bottom: 1px solid #273948; }
+    height: 115px;
+    position: fixed;
+    top: 0;
+    z-index: 10; }
     header .side-nav .user-details .col {
       padding: 0 5px; }
     header .side-nav .user-details .profile-image {

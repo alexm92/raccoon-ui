@@ -44,6 +44,17 @@ header {
       line-height: normal;
 
       &.menu-item {
+        background: $left-nav-background;
+
+        // move menu items from beneath the user profile by adding a margin top of that size
+        &:nth-child(2) {
+          margin-top: 115px;
+        }
+
+        // add some padding after last menu item
+        &:last-child {
+          padding-bottom: 50px !important;
+        }
 
         .collapsible-header {
           margin: 0;
@@ -76,10 +87,13 @@ header {
     // user profile from top left nav
     .user-details {
       background: $left-nav-link-active-background;
-      color: $left-nav-link-color;
-      height: 115px;
-      font-size: 12px;
       border-bottom: 1px solid $left-nav-background;
+      color: $left-nav-link-color;
+      font-size: 12px;
+      height: 115px;
+      position: fixed;
+      top: 0;
+      z-index: 10;
 
       .col {
         padding: 0 5px;

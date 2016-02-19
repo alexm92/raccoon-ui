@@ -175,31 +175,59 @@
         <div class="row">
 
             <div class="card small left" style="width: 250px; margin: 10px;">
-                <div class="card-image waves-effect waves-block waves-light">
-                    ...
-                </div>
-                <div class="card-content">
-                    <span class="card-title activator grey-text text-darken-4">
-                        Applogic - DEV <i class="material-icons right">library_books</i>
-                    </span>
-                    <p><a href="#">3.5.4-3827</a></p>
-                </div>
-                <div class="card-reveal">
-                    <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-                    <p>Here is some more information about this product that is only revealed once clicked on.</p>
-                </div>
-            </div>
-
-
-            <div class="card small left" style="width: 250px; margin: 10px;">
                 <div class="card-content text-darken-4">
-                    <span class="card-title activator">Applogic - DEV</span>
-                    <p>I am a very simple card. I am good at containing small bits of information.
-                        I am convenient because I require little markup to use effectively.</p>
-                </div>
-                <div class="card-action">
-                    <a href="#">This is a link</a>
-                    <a href="#">This is a link</a>
+                    <span class="card-title">
+                        Applogic - DEV
+                        <a class="dropdown-button btn-flat right" data-hover="true" data-alignment="right" data-activates="actions-dropdown">
+                            <i class="material-icons">more_vert</i>
+                        </a>
+                    </span>
+                    <ul id="actions-dropdown" class="dropdown-content">
+                        <li><a href="#" class="activator">Update</a></li>
+                        <li><a href="#">Config</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#">Trigger Tests</a></li>
+                    </ul>
+
+                    <div class="auditlog">
+                        <div class="card-panel z-depth-0">
+                            <div class="row">
+                                <div class="col s2">
+                                    <img src="https://secure.gravatar.com/avatar/cd6c65be448c820f53379423779e7dd4?d=mm" alt="" class="circle responsive-img">
+                                </div>
+                                <div class="col s10">
+                                    <span class="description">Installed version 4.5.9-361. You can easily vertically center things by adding the class valign-wrapper to the container holding the items you want to vertically align.</span><br />
+                                    <span class="time grey-text">32m ago</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card-panel z-depth-0">
+                            <div class="row">
+                                <div class="col s2">
+                                    <img src="https://secure.gravatar.com/avatar/cd6c65be448c820f53379423779e7dd4?d=mm" alt="" class="circle responsive-img">
+                                </div>
+                                <div class="col s10">
+                                    <span class="description">Updated config</span><br/>
+                                    <span class="time grey-text">32m ago</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card-panel z-depth-0">
+                            <div class="row">
+                                <div class="col s2">
+                                    <img src="https://secure.gravatar.com/avatar/cd6c65be448c820f53379423779e7dd4?d=mm" alt="" class="circle responsive-img">
+                                </div>
+                                <div class="col s10">
+                                    <span class="description">Installed version 4.5.9-361. You can easily vertically center things by adding the class valign-wrapper to the container holding the items you want to vertically align.</span><br/>
+                                    <span class="time grey-text">32m ago</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
                 </div>
                 <div class="card-reveal">
                     <span class="card-title grey-text text-darken-4">Select build<i class="material-icons right">close</i></span>

@@ -167,4 +167,63 @@ main {
     }
   }
 
+  .card {
+
+    .card-title {
+      font-size: 19px;
+      font-weight: 400;
+      line-height: 38px !important;
+    }
+
+    .card-content {
+      max-height: initial !important;
+
+      .auditlog {
+        overflow-y: auto;
+        height: 220px;
+
+        .card-panel {
+          padding: 0;
+          line-height: 12px;
+          margin-bottom: 10px;
+
+          .row {
+            margin-bottom: auto;
+          }
+
+          .responsive-img {
+            margin-top: 5px;
+          }
+
+          .description {
+            font-size: 12px;
+          }
+
+          .time {
+            font-size: 10px;
+          }
+        }
+      }
+
+    }
+
+    .btn-flat {
+      padding: 0px !important;
+    }
+
+    .dropdown-content {
+      left: auto !important;
+      right: 0px !important;
+
+      li {
+        min-height: initial;
+
+        a {
+          font-size: 14px;
+          padding: 10px 10px;
+        }
+      }
+    }
+  }
+
 }

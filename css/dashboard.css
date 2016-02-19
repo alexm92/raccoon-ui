@@ -88,5 +88,36 @@ main nav.navbar-fixed {
     main nav.navbar-fixed .container ul a {
       color: #777;
       padding: 17px 15px; }
+main .card .card-title {
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 38px !important; }
+main .card .card-content {
+  max-height: initial !important; }
+  main .card .card-content .auditlog {
+    overflow-y: auto;
+    height: 220px; }
+    main .card .card-content .auditlog .card-panel {
+      padding: 0;
+      line-height: 12px;
+      margin-bottom: 10px; }
+      main .card .card-content .auditlog .card-panel .row {
+        margin-bottom: auto; }
+      main .card .card-content .auditlog .card-panel .responsive-img {
+        margin-top: 5px; }
+      main .card .card-content .auditlog .card-panel .description {
+        font-size: 12px; }
+      main .card .card-content .auditlog .card-panel .time {
+        font-size: 10px; }
+main .card .btn-flat {
+  padding: 0px !important; }
+main .card .dropdown-content {
+  left: auto !important;
+  right: 0px !important; }
+  main .card .dropdown-content li {
+    min-height: initial; }
+    main .card .dropdown-content li a {
+      font-size: 14px;
+      padding: 10px 10px; }
 
 /*# sourceMappingURL=dashboard.css.map */

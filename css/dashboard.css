@@ -93,6 +93,7 @@ main .card .card-title {
   font-weight: 400;
   line-height: 38px !important; }
 main .card .card-content {
+  padding: 10px;
   max-height: initial !important; }
   main .card .card-content .auditlog {
     overflow-y: auto;
@@ -109,6 +110,25 @@ main .card .card-content {
         font-size: 12px; }
       main .card .card-content .auditlog .card-panel .time {
         font-size: 10px; }
+main .card .card-reveal {
+  padding: 10px; }
+  main .card .card-reveal .search-wrapper {
+    margin: 0; }
+    main .card .card-reveal .search-wrapper .prefix {
+      font-size: 20px;
+      margin-top: 10px; }
+    main .card .card-reveal .search-wrapper .search {
+      margin: 0;
+      padding-left: 25px;
+      height: 35px;
+      width: calc(100% - 2rem); }
+  main .card .card-reveal .build-list {
+    height: 200px;
+    overflow-y: auto; }
+    main .card .card-reveal .build-list .collection {
+      border: 0; }
+      main .card .card-reveal .build-list .collection .collection-item {
+        padding: 5px; }
 main .card .btn-flat {
   padding: 0px !important; }
 main .card .dropdown-content {

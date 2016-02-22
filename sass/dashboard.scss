@@ -176,6 +176,7 @@ main {
     }
 
     .card-content {
+      padding: 10px;
       max-height: initial !important;
 
       .auditlog {
@@ -205,6 +206,39 @@ main {
         }
       }
 
+    }
+
+    .card-reveal {
+      padding: 10px;
+
+      .search-wrapper {
+        margin: 0;
+
+        .prefix {
+          font-size: 20px;
+          margin-top: 10px;
+        }
+
+        .search {
+          margin: 0;
+          padding-left: 25px;
+          height: 35px;
+          width: calc(100% - 2rem);
+        }
+      }
+
+      .build-list {
+        height: 200px;
+        overflow-y: auto;
+
+        .collection {
+          border: 0;
+
+          .collection-item {
+            padding: 5px;
+          }
+        }
+      }
     }
 
     .btn-flat {

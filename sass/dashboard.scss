@@ -161,6 +161,11 @@ main {
         ul a {
           color: #777;
           padding: 17px 15px;
+
+          .material-icons {
+            line-height: 16px;
+            height: auto;
+          }
         }
 
       }

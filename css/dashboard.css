@@ -88,6 +88,9 @@ main nav.navbar-fixed {
     main nav.navbar-fixed .container ul a {
       color: #777;
       padding: 17px 15px; }
+      main nav.navbar-fixed .container ul a .material-icons {
+        line-height: 16px;
+        height: auto; }
 main .card .card-title {
   font-size: 19px;
   font-weight: 400;
